@@ -1,0 +1,41 @@
+[
+    {
+        "slug": "cicd-nextjs-aws",
+        "title": "CI/CD for Next.js on AWS",
+        "date": "2025-04-19",
+        "excerpt": "Learn how to set up a CI/CD pipeline for a Next.js application using AWS services like CodePipeline, CodeBuild, and S3.",
+        "tags": [
+            "AWS",
+            "CI/CD",
+            "Next.js"
+        ],
+        "coverImage": "/images/posts/cicd-nextjs-aws.png",
+        "filePath": "/posts/cicd-nextjs-aws.md"
+    },
+    {
+        "slug": "getting-started-with-nextjs",
+        "title": "Getting Started with Next.js",
+        "date": "2025-04-19",
+        "excerpt": "A comprehensive guide to getting started with Next.js, including installation, setup, and basic concepts.",
+        "tags": [
+            "Next.js",
+            "React",
+            "JavaScript"
+        ],
+        "coverImage": "/images/posts/getting-started-with-nextjs.png",
+        "filePath": "/posts/getting-started-with-nextjs.md"
+    },
+    {
+        "slug": "nextjs-in-aws",
+        "title": "Next.js in AWS",
+        "date": "2025-04-19",
+        "excerpt": "Explore how to deploy and manage Next.js applications on AWS, including best practices and tips.",
+        "tags": [
+            "AWS",
+            "Next.js",
+            "Deployment"
+        ],
+        "coverImage": "/images/posts/nextjs-in-aws.png",
+        "filePath": "/posts/nextjs-in-aws.md"
+    }
+]

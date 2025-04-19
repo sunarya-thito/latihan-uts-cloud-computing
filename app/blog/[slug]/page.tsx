@@ -7,13 +7,13 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import { InfoIcon } from "lucide-react"
 
 type BlogPostPageProps = {
-  params: {
-    slug: string
-  }
+  params: Promise<{
+    slug: string,
+  }>
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const post = await getPostBySlug(params.slug)
+  const post = await getPostBySlug((await params).slug)
 
   if (!post) {
     return {

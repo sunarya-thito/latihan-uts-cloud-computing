@@ -1,3 +1,5 @@
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
 export default function AboutPage() {
   return (
     <main className="container mx-auto px-4 py-12">
@@ -6,15 +8,16 @@ export default function AboutPage() {
 
         <div className="flex flex-col md:flex-row gap-8 mb-12">
           <div className="flex-shrink-0">
-            <div className="w-48 h-48 bg-primary/10 rounded-lg flex items-center justify-center">
-              <div className="text-5xl font-bold text-primary/30">ST</div>
-            </div>
+            <Avatar className="w-48 h-48 bg-primary/10 rounded-lg flex items-center justify-center">
+              <AvatarImage src={"https://avatars.githubusercontent.com/u/64018564?v=4"} />
+              <AvatarFallback className="text-5xl font-bold text-primary/30">ST</AvatarFallback>
+            </Avatar>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold mb-4">sunarya-thito</h2>
-            <p className="text-muted-foreground mb-4">
-              Hello! I'm sunarya-thito, a developer passionate about building things for the web and beyond. This is my
+            <p className="text-muted-foreground mb-4 text-justify">
+              Hello! I'm Thito Yalasatria Sunarya, a developer passionate about building things for the web and beyond. This is my
               personal blog where I share my thoughts, projects, and experiences.
             </p>
 

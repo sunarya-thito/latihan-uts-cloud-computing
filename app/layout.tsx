@@ -2,13 +2,14 @@ import type React from "react"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "sunarya-thito's Blog",
   description: "Personal blog of sunarya-thito - Thoughts, code, and more",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -23,10 +24,11 @@ export default function RootLayout({
           <div className="min-h-screen flex flex-col">
             <header className="border-b">
               <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                <a href="/" className="text-2xl font-bold flex items-center gap-2">
-                  <div className="bg-primary text-primary-foreground w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl">
-                    ST
-                  </div>
+                <a href="/" className="text-2xl font-semibold flex items-center gap-4">
+                  <Avatar className="bg-primary text-primary-foreground w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl">
+                    <AvatarImage src={"https://avatars.githubusercontent.com/u/64018564?v=4"} alt="sunarya-thito" />
+                    <AvatarFallback>ST</AvatarFallback>
+                  </Avatar>
                   <span>sunarya-thito</span>
                 </a>
                 <nav>
