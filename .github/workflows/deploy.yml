@@ -21,9 +21,10 @@ jobs:
         ssh -o StrictHostKeyChecking=no $EC2_USER@$EC2_INSTANCE_IP << 'EOF'
           cd latihan-uts-cloud-computing
           sudo git pull origin master
-          sudo npm install
+          sudo npm install --force
           sudo npm run build
-          sudo pm2 restart all
+          sudo pm2 delete nextjs
+          sudo pm2 start npm --name "nextjs" -- start
           sudo pm2 save
           sudo systemctl restart nginx
         EOF
