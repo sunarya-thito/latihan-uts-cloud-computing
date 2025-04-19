@@ -36,7 +36,7 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = await getPostBySlug(params.slug)
+  const post = await getPostBySlug((await params).slug)
   const isDummyData = !process.env.AWS_ACCESS_KEY_ID
 
   if (!post) {

@@ -36,7 +36,7 @@ export default async function Home() {
               <div className="h-48 bg-primary/10 flex items-center justify-center">
                 {post.coverImage ? (
                   <img
-                    src={post.coverImage || "/placeholder.svg"}
+                    src={`/api/files?path=${post.coverImage}`}
                     alt={post.title}
                     className="w-full h-full object-cover"
                   />

@@ -9,8 +9,8 @@
             "CI/CD",
             "Next.js"
         ],
-        "coverImage": "/images/posts/cicd-nextjs-aws.png",
-        "filePath": "/posts/cicd-nextjs-aws.md"
+        "coverImage": "images/posts/cicd-nextjs-aws.png",
+        "filePath": "posts/cicd-nextjs-aws.md"
     },
     {
         "slug": "getting-started-with-nextjs",
@@ -22,8 +22,8 @@
             "React",
             "JavaScript"
         ],
-        "coverImage": "/images/posts/getting-started-with-nextjs.png",
-        "filePath": "/posts/getting-started-with-nextjs.md"
+        "coverImage": "images/posts/getting-started-with-nextjs.png",
+        "filePath": "posts/getting-started-with-nextjs.md"
     },
     {
         "slug": "nextjs-in-aws",
@@ -35,7 +35,20 @@
             "Next.js",
             "Deployment"
         ],
-        "coverImage": "/images/posts/nextjs-in-aws.png",
-        "filePath": "/posts/nextjs-in-aws.md"
+        "coverImage": "images/posts/nextjs-in-aws.png",
+        "filePath": "posts/nextjs-in-aws.md"
+    },
+    {
+        "slug": "tailwind-css-tips-and-tricks",
+        "title": "Tailwind CSS Tips and Tricks",
+        "date": "2025-04-19",
+        "excerpt": "Discover useful tips and tricks for using Tailwind CSS effectively in your projects.",
+        "tags": [
+            "Tailwind CSS",
+            "CSS",
+            "Web Development"
+        ],
+        "coverImage": "images/posts/tailwind-css-tips-and-tricks.png",
+        "filePath": "posts/tailwind-css-tips-and-tricks.md"
     }
 ]
