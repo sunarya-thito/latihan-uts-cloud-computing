@@ -12,7 +12,7 @@ export default async function Home() {
   return (
     <main className="container mx-auto px-4 py-12">
       <section className="mb-12 text-center">
-        <h1 className="text-5xl font-bold mb-4">sunarya-thito's Blog</h1>
+        <h1 className="text-5xl font-bold mb-4">Thito's Blog</h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Welcome to my personal blog where I share my thoughts on programming, technology, and more.
         </p>
