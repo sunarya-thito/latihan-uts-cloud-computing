@@ -23,9 +23,9 @@ jobs:
           sudo git pull origin master
           sudo npm install --force
           sudo npm run build
-          sudo pm2 delete nextjs
-          sudo pm2 start npm --name "nextjs" -- start
-          sudo pm2 save
+          pm2 delete nextjs
+          pm2 start npm --name "nextjs" -- start
+          pm2 save
           sudo systemctl restart nginx
         EOF
       env:
