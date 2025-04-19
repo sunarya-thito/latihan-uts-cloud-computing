@@ -52,8 +52,7 @@ export default function AboutPage() {
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <h3>About This Blog</h3>
           <p>
-            This blog is built with Next.js and uses AWS S3 to store and retrieve markdown files. It's statically
-            generated at build time, making it fast and efficient.
+            This blog is a space where I share my thoughts, experiences, and projects with the world.
           </p>
 
           <h3>My Interests</h3>
